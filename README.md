@@ -7,3 +7,4 @@ Tasks come from the HackerRank portal:
 
 1. [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/)
 2. [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2/)
+3. [Select All](https://www.hackerrank.com/challenges/select-all-sql/)
