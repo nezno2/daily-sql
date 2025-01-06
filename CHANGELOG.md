@@ -1,3 +1,10 @@
+## 0.7.0 (2025-01-06)
+
+### Feat
+
+- **basic-select/weather-observation-station-1**: solved task weather-observation-station-1
+- **basic-select/japanese-cities-attributes**: solved task japanese-cities-attributes (#7)
+
 ## 0.6.0 (2025-01-06)
 
 ### Feat
