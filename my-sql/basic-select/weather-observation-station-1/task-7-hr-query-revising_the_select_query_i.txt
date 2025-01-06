@@ -1,0 +1,5 @@
+SELECT `City`, `State` FROM `Station`;
+
+SELECT `CITY`, `STATE` FROM `STATION`;
+
+SELECT `city`, `state` FROM `station`;
