@@ -1,0 +1,1 @@
+SELECT `name` FROM `city` WHERE `country_code` = 'USA' AND `population` > 120000;
