@@ -10,3 +10,4 @@ Tasks come from the HackerRank portal:
 3. [Select All](https://www.hackerrank.com/challenges/select-all-sql/)
 4. [Select By ID](https://www.hackerrank.com/challenges/select-by-id/)
 5. [Japanese Cities' Names](https://www.hackerrank.com/challenges/japanese-cities-name/)
+6. [Japanese Cities' Attributes](https://www.hackerrank.com/challenges/japanese-cities-attributes/)
