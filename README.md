@@ -9,3 +9,4 @@ Tasks come from the HackerRank portal:
 2. [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2/)
 3. [Select All](https://www.hackerrank.com/challenges/select-all-sql/)
 4. [Select By ID](https://www.hackerrank.com/challenges/select-by-id/)
+5. [Japanese Cities' Names](https://www.hackerrank.com/challenges/japanese-cities-name/)
