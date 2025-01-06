@@ -1,3 +1,10 @@
+## 0.4.0 (2025-01-06)
+
+### Feat
+
+- **basic-select/select-by-id**: solved task select-by-id
+- **basic-select/select-all**: solved task select-all (#4)
+
 ## 0.3.0 (2025-01-06)
 
 ### Feat
