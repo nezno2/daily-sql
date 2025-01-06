@@ -1,3 +1,10 @@
+## 0.6.0 (2025-01-06)
+
+### Feat
+
+- **basic-select/japanese-cities-attributes**: solved task japanese-cities-attributes
+- **basic-select/japanese-cities-names**: solved task japanese-cities-names (#6)
+
 ## 0.5.0 (2025-01-06)
 
 ### Feat
