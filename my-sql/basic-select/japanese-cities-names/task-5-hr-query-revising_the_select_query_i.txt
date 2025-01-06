@@ -1,0 +1,5 @@
+SELECT `Name` FROM `CITY` WHERE `CountryCode` = 'JPN';
+
+SELECT `NAME` FROM `CITY` WHERE `COUNTRYCODE` = 'JPN';
+
+SELECT `name` FROM `city` WHERE `countrycode` = 'JPN';
