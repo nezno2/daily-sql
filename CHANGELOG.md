@@ -1,3 +1,10 @@
+## 0.5.0 (2025-01-06)
+
+### Feat
+
+- **basic-select/japanese-cities-names**: solved task japanese-cities-names
+- **basic-select/select-by-id**: solved task select-by-id (#5)
+
 ## 0.4.0 (2025-01-06)
 
 ### Feat
