@@ -13,3 +13,4 @@ Tasks come from the HackerRank portal:
 6. [Japanese Cities' Attributes](https://www.hackerrank.com/challenges/japanese-cities-attributes/)
 7. [Weather Observation Station 1](https://www.hackerrank.com/challenges/weather-observation-station-1/)
 8. [Weather Observation Station 3](https://www.hackerrank.com/challenges/weather-observation-station-3/)
+9. [Weather Observation Station 4](https://www.hackerrank.com/challenges/weather-observation-station-4/)
