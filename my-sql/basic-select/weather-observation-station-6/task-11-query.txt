@@ -1,0 +1,16 @@
+SELECT DISTINCT `City`
+FROM `Station`
+WHERE `City` REGEXP '^[aeiouAEIOU]';
+
+SELECT DISTINCT `CITY`
+SELECT DISTINCT `city`
+FROM `station`
+WHERE `city` REGEXP '^[aeiouAEIOU]';
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE LEFT(`city`, 1) IN ('A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE LEFT(`city`, 1) IN ('A', 'E', 'I', 'O', 'U');
