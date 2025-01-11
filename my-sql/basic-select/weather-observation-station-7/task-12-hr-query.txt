@@ -1,0 +1,35 @@
+SELECT DISTINCT `City`
+FROM `Station`
+WHERE `City` REGEXP '[aeiou]$';
+
+SELECT DISTINCT `CITY`
+FROM `STATION`
+WHERE `CITY` REGEXP '[aeiou]$';
+
+SELECT DISTINCT `city`
+FROM `station`
+WHERE `city` REGEXP '[aeiou]$';
+
+SELECT DISTINCT `City` 
+FROM `Station` 
+WHERE RIGHT(`City`, 1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `CITY` 
+FROM `STATION` 
+WHERE RIGHT(`CITY`, 1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE RIGHT(`city`, 1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `CITY`
+FROM `STATION` 
+WHERE SUBSTR(`CITY`, -1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE SUBSTR(`City`, -1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `City` 
+FROM `Station` 
+WHERE SUBSTR(`City`, -1) IN ('a', 'e', 'i', 'o', 'u');
