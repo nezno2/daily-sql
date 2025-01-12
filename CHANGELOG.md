@@ -1,3 +1,13 @@
+## 0.12.0 (2025-01-12)
+
+### Feat
+
+- **basic-select/weather-observation-station-6**: solved task weather-observation-station-6 (#14)
+
+### Fix
+
+- **basic-select/weather-observation-station-6**: fix query in task-11-query.txt (#15)
+
 ## 0.11.0 (2025-01-11)
 
 ### Feat
