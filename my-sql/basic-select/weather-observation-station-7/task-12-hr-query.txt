@@ -24,12 +24,12 @@ WHERE RIGHT(`city`, 1) IN ('a', 'e', 'i', 'o', 'u');
 
 SELECT DISTINCT `CITY`
 FROM `STATION` 
-WHERE SUBSTR(`CITY`, -1) IN ('a', 'e', 'i', 'o', 'u');
+WHERE SUBSTR(`CITY`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');
 
 SELECT DISTINCT `city` 
 FROM `station` 
-WHERE SUBSTR(`City`, -1) IN ('a', 'e', 'i', 'o', 'u');
+WHERE SUBSTR(`City`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');
 
 SELECT DISTINCT `City` 
 FROM `Station` 
-WHERE SUBSTR(`City`, -1) IN ('a', 'e', 'i', 'o', 'u');
+WHERE SUBSTR(`City`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');
