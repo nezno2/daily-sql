@@ -1,0 +1,41 @@
+SELECT DISTINCT `city`
+FROM `station`
+WHERE `city` REGEXP '^[AEIOU].*[aeiou]$';
+
+SELECT DISTINCT `City`
+FROM `Station`
+WHERE `City` REGEXP '^[AEIOU].*[aeiou]$';
+
+SELECT DISTINCT `CITY`
+FROM `STATION`
+WHERE `CITY` REGEXP '^[AEIOU].*[aeiou]$';
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE RIGHT(`city`, 1) IN ('a', 'e', 'i', 'o', 'u') 
+AND LEFT(`city`, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+SELECT DISTINCT `City` 
+FROM `Station` 
+WHERE RIGHT(`City`, 1) IN ('a', 'e', 'i', 'o', 'u') 
+AND LEFT(`City`, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+SELECT DISTINCT `CITY` 
+FROM `STATION` 
+WHERE RIGHT(`CITY`, 1) IN ('a', 'e', 'i', 'o', 'u') 
+AND LEFT(`CITY`, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE SUBSTR(`city`, 1, 1) IN ('A', 'E', 'I', 'O', 'U')
+AND SUBSTR(`city`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `City` 
+FROM `Station` 
+WHERE SUBSTR(`City`, 1, 1) IN ('A', 'E', 'I', 'O', 'U')
+AND SUBSTR(`City`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');
+
+SELECT DISTINCT `CITY` 
+FROM `STATION` 
+WHERE SUBSTR(`CITY`, 1, 1) IN ('A', 'E', 'I', 'O', 'U')
+AND SUBSTR(`CITY`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');

@@ -1,3 +1,14 @@
+## 0.13.0 (2025-01-14)
+
+### Feat
+
+- **basic-select/weather-observation-station-8**: solved task weather-observation-station-8
+- **basic-select/weather-observation-station-7**: solved task weather-observation-station-7 (#16)
+
+### Fix
+
+- **basic-select/weather-observation-station-7**: fix query by adding value to length in substr function (#17)
+
 ## 0.12.0 (2025-01-12)
 
 ### Feat

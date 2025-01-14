@@ -8,4 +8,4 @@ WHERE RIGHT(`city`, 1) IN ('a', 'e', 'i', 'o', 'u');
 
 SELECT DISTINCT `city` 
 FROM `station` 
-WHERE SUBSTR(`City`, -1) IN ('a', 'e', 'i', 'o', 'u');
+WHERE SUBSTR(`City`, -1, 1) IN ('a', 'e', 'i', 'o', 'u');
