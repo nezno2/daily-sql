@@ -1,0 +1,11 @@
+SELECT DISTINCT `city`
+FROM `station`
+WHERE `city` NOT REGEXP '^[AEIOU]'
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE LEFT(`city`, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
+
+SELECT DISTINCT `city` 
+FROM `station` 
+WHERE SUBSTR(`city`, 1, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
