@@ -19,3 +19,4 @@ Tasks come from the HackerRank portal:
 12. [Weather Observation Station 7](https://www.hackerrank.com/challenges/weather-observation-station-7/)
 13. [Weather Observation Station 8](https://www.hackerrank.com/challenges/weather-observation-station-8/)
 14. [Weather Observation Station 9](https://www.hackerrank.com/challenges/weather-observation-station-9/)
+15. [Weather Observation Station 9](https://www.hackerrank.com/challenges/weather-observation-station-10/)

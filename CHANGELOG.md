@@ -1,3 +1,10 @@
+## 0.15.0 (2025-01-16)
+
+### Feat
+
+- **basic-select/weather-observation-station-10**: solved task weather-observation-station-10
+- **basic-select/weather-observation-station-9**: solved task weather-observation-station-9 (#19)
+
 ## 0.14.0 (2025-01-16)
 
 ### Feat
