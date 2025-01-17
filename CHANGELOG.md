@@ -1,3 +1,14 @@
+## 0.16.0 (2025-01-17)
+
+### Feat
+
+- **basic-select/weather-observation-station-11**: solved task weather-observation-station-11
+- **basic-select/weather-observation-station-10**: solved task weather-observation-station-10 (#20)
+
+### Fix
+
+- **.cz.toml**: unnumbering a deleted tag
+
 ## 0.15.0 (2025-01-16)
 
 ### Feat
