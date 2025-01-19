@@ -1,3 +1,10 @@
+## 0.19.0 (2025-01-19)
+
+### Feat
+
+- **basic-select/employee-names**: solved task employee-names
+- **basic-select/higher-than-75-marks**: solved task higher-than-75-marks (#25)
+
 ## 0.18.0 (2025-01-19)
 
 ### Feat
