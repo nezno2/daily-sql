@@ -1,3 +1,10 @@
+## 0.18.0 (2025-01-19)
+
+### Feat
+
+- **basic-select/higher-than-75-marks**: solved task higher-than-75-marks
+- **basic-select/weather-observation-station-12**: solved task weather-observation-station-12 (#24)
+
 ## 0.17.0 (2025-01-18)
 
 ### Feat
