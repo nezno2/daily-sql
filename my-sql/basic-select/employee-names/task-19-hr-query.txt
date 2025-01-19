@@ -1,0 +1,8 @@
+SELECT `name` FROM `employee`
+ORDER BY `name` ASC;
+
+SELECT `Name` FROM `Employee`
+ORDER BY `Name` ASC;
+
+SELECT `NAME` FROM `EMPLOYEE`
+ORDER BY `NAME` ASC;
