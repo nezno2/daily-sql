@@ -24,3 +24,4 @@ Tasks come from the HackerRank portal:
 17. [Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12/)
 18. [Higher Than 75 Marks](https://www.hackerrank.com/challenges/more-than-75-marks/)
 19. [Employee Names](https://www.hackerrank.com/challenges/name-of-employees/)
+20. [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees/)
