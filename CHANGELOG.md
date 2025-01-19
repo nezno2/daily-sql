@@ -1,3 +1,10 @@
+## 0.20.0 (2025-01-20)
+
+### Feat
+
+- **basic-select/employee-salaries**: solved task employee-salaries
+- **basic-select/employee-names**: solved task employee-names (#26)
+
 ## 0.19.0 (2025-01-19)
 
 ### Feat
