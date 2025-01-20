@@ -1,4 +1,4 @@
-SELECT * FROM `CITY` WHERE `CountryCode` = 'JPN';
+SELECT * FROM `City` WHERE `CountryCode` = 'JPN';
 
 SELECT * FROM `CITY` WHERE `COUNTRYCODE` = 'JPN';
 
