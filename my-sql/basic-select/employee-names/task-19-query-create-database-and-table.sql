@@ -117,4 +117,4 @@ ON DUPLICATE KEY UPDATE
   `salary` = `employee_new`.`salary`;
 
 SELECT `name` FROM `employee`
-ORDER BY name` ASC;
+ORDER BY `name` ASC;
