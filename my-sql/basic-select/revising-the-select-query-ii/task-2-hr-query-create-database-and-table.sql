@@ -27,4 +27,4 @@ ON DUPLICATE KEY UPDATE
     `DISTRICT` = `CITYNEW`.`DISTRICT`,
     `POPULATION` = `CITYNEW`.`POPULATION`;
 
-SELECT `Name` FROM `CITY` WHERE `CountryCode` = 'USA' AND `Population` > 120000;
+SELECT `Name` FROM `City` WHERE `CountryCode` = 'USA' AND `Population` > 120000;
