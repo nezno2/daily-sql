@@ -1,0 +1,5 @@
+SELECT * FROM `city` WHERE `countrycode` = 'USA' AND `population` > 100000;
+
+SELECT * FROM `City` WHERE `CountryCode` = 'USA' AND `Population` > 100000;
+
+SELECT * FROM `CITY` WHERE `COUNTRYCODE` = 'USA' AND `POPULATION` > 100000;

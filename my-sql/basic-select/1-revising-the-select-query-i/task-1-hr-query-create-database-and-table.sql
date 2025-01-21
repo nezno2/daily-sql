@@ -21,4 +21,4 @@ INSERT IGNORE INTO `CITY` (`ID`, `NAME`, `COUNTRYCODE`, `DISTRICT`, `POPULATION`
 (4058, 'Boulder', 'USA', 'Colorado', 91238),
 (4061, 'Fall River', 'USA', 'Massachusetts', 90555);
 
-SELECT * FROM `CITY` WHERE `CountryCode` = 'USA' AND `population` > 100000;
+SELECT * FROM `CITY` WHERE `COUNTRYCODE` = 'USA' AND `POPULATION` > 100000;
