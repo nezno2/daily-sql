@@ -1,3 +1,0 @@
-SELECT `name` FROM `city` WHERE `countrycode` = 'USA' AND `population` > 120000;
-
-SELECT `Name` FROM `CITY` WHERE `CountryCode` = 'USA' AND `Population` > 120000;
