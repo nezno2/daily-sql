@@ -1,0 +1,5 @@
+SELECT * FROM `city`;
+
+SELECT * FROM `CITY`;
+
+SELECT * FROM `City`;
