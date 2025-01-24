@@ -1,3 +1,5 @@
 SELECT * FROM `city` WHERE `id` = 1661;
 
+SELECT * FROM `City` WHERE `Id` = 1661;
+
 SELECT * FROM `CITY` WHERE `ID` = 1661;
