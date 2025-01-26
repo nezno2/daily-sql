@@ -517,9 +517,9 @@ ON DUPLICATE KEY UPDATE
   `LAT_N` = `STATIONNEW`.`LAT_N`,
   `LONG_W` = `STATIONNEW`.`LONG_W`;
 
-SELECT DISTINCT `city` 
-FROM `station`
-WHERE LEFT(`city`, 1)
+SELECT DISTINCT `CITY` 
+FROM `STATION`
+WHERE LEFT(`CITY`, 1)
 NOT IN ('A', 'E', 'I', 'O', 'U')
-OR RIGHT(`city`, 1)
+OR RIGHT(`CITY`, 1)
 NOT IN ('a', 'e', 'i', 'o', 'u');
