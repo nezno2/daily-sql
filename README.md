@@ -5,6 +5,8 @@ SQL tasks 🧶
 Tasks come from the HackerRank portal:
 [HackerRankSQL](https://www.hackerrank.com/domains/sql)
 
+Basic Select:
+
 1. [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/)
 2. [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2/)
 3. [Select All](https://www.hackerrank.com/challenges/select-all-sql/)
@@ -25,3 +27,7 @@ Tasks come from the HackerRank portal:
 18. [Higher Than 75 Marks](https://www.hackerrank.com/challenges/more-than-75-marks/)
 19. [Employee Names](https://www.hackerrank.com/challenges/name-of-employees/)
 20. [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees/)
+
+Advanced Select:
+
+1. [Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/)
