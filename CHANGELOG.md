@@ -1,3 +1,33 @@
+## 0.21.0 (2025-01-29)
+
+### Feat
+
+- **advanced-select/type-of-triangle**: solved task type-of-triangle
+- **basic-select/employee-salaries**: solved task employee-salaries (#27)
+
+### Fix
+
+- **basic-select/16-weather-observation-station-11**: improving readability (#47)
+- **basic-select/15-weather-observation-station-10**: improving readability (#46)
+- **basic-select/14-weather-observation-station-9**: improving readability (#45)
+- **basic-select/13-weather-observation-station-8**: improving readability (#44)
+- **basic-select/12-weather-observation-station-7**: improving readability (#43)
+- **basic-select/11-weather-observation-station-6**: improving readability (#42)
+- **basic-select/10-weather-observation-station-5**: improving readability (#41)
+- **basic-select/9-weather-observation-station-4**: improving readability (#40)
+- **basic-select/8-weather-observation-station-3**: improving readability (#39)
+- **basic-select/7-weather-observation-station-1**: improving readability (#38)
+- **basic-select/4-select-by-id**: improving readability (#37)
+- **basic-select/weather-observation-station-12**: improving readability (#36)
+- **basic-select/3-select-all**: improving readability (#35)
+- **basic-select/2-revising-the-select-query-ii**: improving readability (#34)
+- **basic-select/1-revising-the-select-query-i**: improving readability (#33)
+- **basic-select/5-japanese-cities-names**: improving readability (#32)
+- **basic-select/18-higher-than-75-marks**: improving readability (#31)
+- **basic-select/20-employee-salaries**: improving readability (#30)
+- **basic-select/19-employee-names**: improving readability (#29)
+- **basic-select/6-japanese-cities-attributes**: improving readability (#28)
+
 ## 0.20.0 (2025-01-20)
 
 ### Feat
