@@ -1,3 +1,10 @@
+## 0.22.0 (2025-01-30)
+
+### Feat
+
+- **advanced-select/2-the-pads**: solved task the-pads
+- **advanced-select/type-of-triangle**: solved task type-of-triangle (#48)
+
 ## 0.21.0 (2025-01-29)
 
 ### Feat
