@@ -1,0 +1,10 @@
+(SELECT 
+CONCAT(`name`, '(', SUBSTR(`occupation`, 1, 1), ')') AS `occupation_and_occupation_count`
+FROM `occupations`
+ORDER BY `name` ASC)
+UNION ALL
+(SELECT
+CONCAT('There are a total of ', COUNT(`occupation`), ' ', LOWER(`occupation`), 's.')
+FROM `occupations`
+GROUP BY `occupation`
+ORDER BY COUNT(`occupation`), SUBSTR(`occupation`, 1, 1) ASC);

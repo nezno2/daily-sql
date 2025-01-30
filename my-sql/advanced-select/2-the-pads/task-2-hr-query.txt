@@ -1,0 +1,70 @@
+SELECT 
+CONCAT(`NAME`, '(', SUBSTR(`OCCUPATION`, 1, 1), ')') AS `OCCUPATION_BY_PERSON`
+FROM `OCCUPATIONS`
+ORDER BY `NAME` ASC;
+
+SELECT
+CONCAT('There are a total of ', COUNT(`OCCUPATION`), ' ', LOWER(`OCCUPATION`), 's.') AS `OCCUPATION_COUNT`
+FROM `OCCUPATIONS`
+GROUP BY `OCCUPATION`
+ORDER BY COUNT(`OCCUPATION`), SUBSTR(`OCCUPATION`, 1, 1) ASC;
+
+
+SELECT 
+CONCAT(`name`, '(', SUBSTR(`occupation`, 1, 1), ')') AS `occupation_by_person`
+FROM `occupation`
+ORDER BY `name` ASC;
+
+SELECT
+CONCAT('There are a total of ', COUNT(`occupation`), ' ', LOWER(`occupation`), 's.') AS `occupation_count`
+FROM `occupation`
+GROUP BY `occupation`
+ORDER BY COUNT(`occupation`), SUBSTR(`occupation`, 1, 1) ASC;
+
+
+SELECT 
+CONCAT(`Name`, '(', SUBSTR(`Occupation`, 1, 1), ')') AS `Occupation_by_person`
+FROM `Occupation`
+ORDER BY `Name` ASC;
+
+SELECT
+CONCAT('There are a total of ', COUNT(`Occupation`), ' ', LOWER(`Occupation`), 's.') AS `Occupation_count`
+FROM `Occupation`
+GROUP BY `Occupation`
+ORDER BY COUNT(`Occupation`), SUBSTR(`Occupation`, 1, 1) ASC;
+
+
+(SELECT 
+CONCAT(`NAME`, '(', SUBSTR(`OCCUPATION`, 1, 1), ')') AS `OCCUPATION_AND_OCCUPATION_COUNT`
+FROM `OCCUPATIONS`
+ORDER BY `NAME` ASC)
+UNION ALL 
+(SELECT
+CONCAT('There are a total of ', COUNT(`OCCUPATION`), ' ', LOWER(`OCCUPATION`), 's.')
+FROM `OCCUPATIONS`
+GROUP BY `OCCUPATION`
+ORDER BY COUNT(`OCCUPATION`), SUBSTR(`OCCUPATION`, 1, 1) ASC);
+
+
+(SELECT 
+CONCAT(`name`, '(', SUBSTR(`occupation`, 1, 1), ')') AS `occupation_and_occupation_count`
+FROM `occupations`
+ORDER BY `name` ASC)
+UNION ALL
+(SELECT
+CONCAT('There are a total of ', COUNT(`occupation`), ' ', LOWER(`occupation`), 's.')
+FROM `occupations`
+GROUP BY `occupation`
+ORDER BY COUNT(`occupation`), SUBSTR(`occupation`, 1, 1) ASC);
+
+
+(SELECT 
+CONCAT(`Name`, '(', SUBSTR(`Occupation`, 1, 1), ')') AS `occupation_and_occupation_count`
+FROM `Occupations`
+ORDER BY `Name` ASC)
+UNION ALL
+(SELECT
+CONCAT('There are a total of ', COUNT(`Occupation`), ' ', LOWER(`Occupation`), 's.')
+FROM `Occupations`
+GROUP BY `Occupation`
+ORDER BY COUNT(`Occupation`), SUBSTR(`Occupation`, 1, 1) ASC);
