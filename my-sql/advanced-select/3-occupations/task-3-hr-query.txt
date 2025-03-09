@@ -1,0 +1,187 @@
+WITH `PROFESSION` AS (
+SELECT 
+	`NAME`,
+	`OCCUPATION`,
+	ROW_NUMBER() OVER (PARTITION BY `OCCUPATION` ORDER BY `NAME`) AS `ROW_NUMBER`
+FROM `OCCUPATIONS`
+)
+SELECT
+    MAX(CASE WHEN `OCCUPATION` = 'Doctor' THEN `NAME` END) AS `DOCTOR`,
+    MAX(CASE WHEN `OCCUPATION` = 'Professor' THEN `NAME` END) AS `PROFESSOR`,
+    MAX(CASE WHEN `OCCUPATION` = 'Singer' THEN `NAME` END) AS `SINGER`,
+    MAX(CASE WHEN `OCCUPATION` = 'Actor' THEN `NAME` END) AS `ACTOR`
+FROM `PROFESSION`
+GROUP BY `ROW_NUMBER`
+ORDER BY `NAME`;
+
+
+WITH `PROFESSION` AS (
+SELECT 
+	`NAME`,
+	`OCCUPATION`,
+	ROW_NUMBER() OVER (PARTITION BY `OCCUPATION` ORDER BY `NAME`) AS `ROW NUMBER`
+FROM `OCCUPATIONS`
+)
+SELECT
+    MAX(CASE WHEN `OCCUPATION` = 'Doctor' THEN `NAME` END) AS `DOCTOR`,
+    MAX(CASE WHEN `OCCUPATION` = 'Professor' THEN `NAME` END) AS `PROFESSOR`,
+    MAX(CASE WHEN `OCCUPATION` = 'Singer' THEN `NAME` END) AS `SINGER`,
+    MAX(CASE WHEN `OCCUPATION` = 'Actor' THEN `NAME` END) AS `ACTOR`
+FROM `PROFESSION`
+GROUP BY `ROW NUMBER`
+ORDER BY `NAME`;
+
+
+WITH `PROFESSION` AS (
+SELECT 
+	`NAME`,
+	`OCCUPATION`,
+	ROW_NUMBER() OVER (PARTITION BY `OCCUPATION` ORDER BY `NAME`) AS `ROWNUMBER`
+FROM `OCCUPATIONS`
+)
+SELECT
+    MAX(CASE WHEN `OCCUPATION` = 'Doctor' THEN `NAME` END) AS `DOCTOR`,
+    MAX(CASE WHEN `OCCUPATION` = 'Professor' THEN `NAME` END) AS `PROFESSOR`,
+    MAX(CASE WHEN `OCCUPATION` = 'Singer' THEN `NAME` END) AS `SINGER`,
+    MAX(CASE WHEN `OCCUPATION` = 'Actor' THEN `NAME` END) AS `ACTOR`
+FROM `PROFESSION`
+GROUP BY `ROWNUMBER`
+ORDER BY `NAME`;
+
+
+
+WITH `profession` AS (
+SELECT 
+	`name`,
+	`occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `occupation` ORDER BY `name`) AS `row_number`
+FROM `occupations`
+)
+SELECT
+    MAX(CASE WHEN `occupation` = 'Doctor' THEN `name` END) AS `doctor`,
+    MAX(CASE WHEN `occupation` = 'Professor' THEN `name` END) AS `professor`,
+    MAX(CASE WHEN `occupation` = 'Singer' THEN `name` END) AS `singer`,
+    MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
+FROM `profession`
+GROUP BY `row_number`
+ORDER BY `name`;
+
+
+WITH `profession` AS (
+SELECT 
+	`name`,
+	`occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `occupation` ORDER BY `name`) AS `row number`
+FROM `occupations`
+)
+SELECT
+    MAX(CASE WHEN `occupation` = 'Doctor' THEN `name` END) AS `doctor`,
+    MAX(CASE WHEN `occupation` = 'Professor' THEN `name` END) AS `professor`,
+    MAX(CASE WHEN `occupation` = 'Singer' THEN `name` END) AS `singer`,
+    MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
+FROM `profession`
+GROUP BY `row number`
+ORDER BY `name`;
+
+
+WITH `profession` AS (
+SELECT 
+	`name`,
+	`occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `occupation` ORDER BY `name`) AS `rownumber`
+FROM `occupations`
+)
+SELECT
+    MAX(CASE WHEN `occupation` = 'Doctor' THEN `name` END) AS `doctor`,
+    MAX(CASE WHEN `occupation` = 'Professor' THEN `name` END) AS `professor`,
+    MAX(CASE WHEN `occupation` = 'Singer' THEN `name` END) AS `singer`,
+    MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
+FROM `profession`
+GROUP BY `rownumber`
+ORDER BY `name`;
+
+
+
+WITH `Profession` AS (
+SELECT 
+	`Name`,
+	`Occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `Occupation` ORDER BY `Name`) AS `Row_number`
+FROM `Occupations`
+)
+SELECT
+    MAX(CASE WHEN `Occupation` = 'Doctor' THEN `Name` END) AS `Doctor`,
+    MAX(CASE WHEN `Occupation` = 'Professor' THEN `Name` END) AS `Professor`,
+    MAX(CASE WHEN `Occupation` = 'Singer' THEN `Name` END) AS `Singer`,
+    MAX(CASE WHEN `Occupation` = 'Actor' THEN `Name` END) AS `Actor`
+FROM `Profession`
+GROUP BY `Row_number`
+ORDER BY `Name`;
+
+
+WITH `Profession` AS (
+SELECT 
+	`Name`,
+	`Occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `Occupation` ORDER BY `Name`) AS `Row number`
+FROM `Occupations`
+)
+SELECT
+    MAX(CASE WHEN `Occupation` = 'Doctor' THEN `Name` END) AS `Doctor`,
+    MAX(CASE WHEN `Occupation` = 'Professor' THEN `Name` END) AS `Professor`,
+    MAX(CASE WHEN `Occupation` = 'Singer' THEN `Name` END) AS `Singer`,
+    MAX(CASE WHEN `Occupation` = 'Actor' THEN `Name` END) AS `Actor`
+FROM `Profession`
+GROUP BY `Row number`
+ORDER BY `Name`;
+
+
+WITH `Profession` AS (
+SELECT 
+	`Name`,
+	`Occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `Occupation` ORDER BY `Name`) AS `Rownumber`
+FROM `Occupations`
+)
+SELECT
+    MAX(CASE WHEN `Occupation` = 'Doctor' THEN `name` END) AS `Doctor`,
+    MAX(CASE WHEN `Occupation` = 'Professor' THEN `name` END) AS `Professor`,
+    MAX(CASE WHEN `Occupation` = 'Singer' THEN `name` END) AS `Singer`,
+    MAX(CASE WHEN `Occupation` = 'Actor' THEN `name` END) AS `Actor`
+FROM `Profession`
+GROUP BY `Rownumber`
+ORDER BY `Name`;
+
+
+WITH `Profession` AS (
+SELECT 
+	`Name`,
+	`Occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `Occupation` ORDER BY `Name`) AS `RowNumber`
+FROM `Occupations`
+)
+SELECT
+    MAX(CASE WHEN `Occupation` = 'Doctor' THEN `name` END) AS `Doctor`,
+    MAX(CASE WHEN `Occupation` = 'Professor' THEN `name` END) AS `Professor`,
+    MAX(CASE WHEN `Occupation` = 'Singer' THEN `name` END) AS `Singer`,
+    MAX(CASE WHEN `Occupation` = 'Actor' THEN `name` END) AS `Actor`
+FROM `Profession`
+GROUP BY `RowNumber`
+ORDER BY `Name`;
+
+
+WITH `Profession` AS (
+SELECT 
+	`Name`,
+	`Occupation`,
+	ROW_NUMBER() OVER (PARTITION BY `Occupation` ORDER BY `Name`) AS `Row Number`
+FROM `Occupations`
+)
+SELECT
+    MAX(CASE WHEN `Occupation` = 'Doctor' THEN `Name` END) AS `Doctor`,
+    MAX(CASE WHEN `Occupation` = 'Professor' THEN `Name` END) AS `Professor`,
+    MAX(CASE WHEN `Occupation` = 'Singer' THEN `Name` END) AS `Singer`,
+    MAX(CASE WHEN `Occupation` = 'Actor' THEN `Name` END) AS `Actor`
+FROM `Profession`
+GROUP BY `Row Number`
+ORDER BY `Name`;
