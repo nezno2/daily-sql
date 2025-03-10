@@ -32,3 +32,4 @@ Advanced Select:
 
 1. [Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/)
 2. [The PADS](https://www.hackerrank.com/challenges/the-pads/)
+3. [Occupations](https://www.hackerrank.com/challenges/occupations/)
