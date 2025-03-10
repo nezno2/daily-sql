@@ -12,7 +12,7 @@ SELECT
     MAX(CASE WHEN `OCCUPATION` = 'Actor' THEN `NAME` END) AS `ACTOR`
 FROM `PROFESSION`
 GROUP BY `ROW_NUMBER`
-ORDER BY `NAME`;
+ORDER BY `ROW_NUMBER`;
 
 
 WITH `PROFESSION` AS (
@@ -29,7 +29,7 @@ SELECT
     MAX(CASE WHEN `OCCUPATION` = 'Actor' THEN `NAME` END) AS `ACTOR`
 FROM `PROFESSION`
 GROUP BY `ROW NUMBER`
-ORDER BY `NAME`;
+ORDER BY `ROW_NUMBER`;
 
 
 WITH `PROFESSION` AS (
@@ -46,7 +46,7 @@ SELECT
     MAX(CASE WHEN `OCCUPATION` = 'Actor' THEN `NAME` END) AS `ACTOR`
 FROM `PROFESSION`
 GROUP BY `ROWNUMBER`
-ORDER BY `NAME`;
+ORDER BY `ROWNUMBER`;
 
 
 
@@ -64,7 +64,7 @@ SELECT
     MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
 FROM `profession`
 GROUP BY `row_number`
-ORDER BY `name`;
+ORDER BY `row_number`;
 
 
 WITH `profession` AS (
@@ -81,7 +81,7 @@ SELECT
     MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
 FROM `profession`
 GROUP BY `row number`
-ORDER BY `name`;
+ORDER BY `row number`;
 
 
 WITH `profession` AS (
@@ -98,7 +98,7 @@ SELECT
     MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
 FROM `profession`
 GROUP BY `rownumber`
-ORDER BY `name`;
+ORDER BY `rownumber`;
 
 
 
@@ -116,7 +116,7 @@ SELECT
     MAX(CASE WHEN `Occupation` = 'Actor' THEN `Name` END) AS `Actor`
 FROM `Profession`
 GROUP BY `Row_number`
-ORDER BY `Name`;
+ORDER BY `Row_number`;
 
 
 WITH `Profession` AS (
@@ -133,7 +133,7 @@ SELECT
     MAX(CASE WHEN `Occupation` = 'Actor' THEN `Name` END) AS `Actor`
 FROM `Profession`
 GROUP BY `Row number`
-ORDER BY `Name`;
+ORDER BY `Row number`;
 
 
 WITH `Profession` AS (
@@ -150,7 +150,7 @@ SELECT
     MAX(CASE WHEN `Occupation` = 'Actor' THEN `name` END) AS `Actor`
 FROM `Profession`
 GROUP BY `Rownumber`
-ORDER BY `Name`;
+ORDER BY `Rownumber`;
 
 
 WITH `Profession` AS (
@@ -167,7 +167,7 @@ SELECT
     MAX(CASE WHEN `Occupation` = 'Actor' THEN `name` END) AS `Actor`
 FROM `Profession`
 GROUP BY `RowNumber`
-ORDER BY `Name`;
+ORDER BY `RowNumber`;
 
 
 WITH `Profession` AS (
@@ -184,4 +184,4 @@ SELECT
     MAX(CASE WHEN `Occupation` = 'Actor' THEN `Name` END) AS `Actor`
 FROM `Profession`
 GROUP BY `Row Number`
-ORDER BY `Name`;
+ORDER BY `Row Number`;

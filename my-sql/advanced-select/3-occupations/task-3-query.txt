@@ -12,4 +12,4 @@ SELECT
     MAX(CASE WHEN `occupation` = 'Actor' THEN `name` END) AS `actor`
 FROM `profession`
 GROUP BY `row_number`
-ORDER BY `name`;
+ORDER BY `row_number`;
