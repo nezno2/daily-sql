@@ -1,3 +1,10 @@
+## 0.23.0 (2025-03-11)
+
+### Feat
+
+- **advanced-select/3-occupations**: solved task occupations
+- **advanced-select/2-the-pads**: solved task the-pads (#49)
+
 ## 0.22.0 (2025-01-30)
 
 ### Feat
